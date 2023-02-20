@@ -8,7 +8,8 @@ const count = ref(0)
 
 <template>
   <div class="card w-1/3 bg-base-100 shadow-xl">
-    <figure><img src="https://evercam.com/wp-content/uploads/sites/11/2019/11/big-red-button.jpg" alt="Red Button" />
+    <figure><img src="https://evercam.com/wp-content/uploads/sites/11/2019/11/big-red-button.jpg" alt="Red Button"
+        @click="count++" />
     </figure>
     <div class="card-body">
       <h2 class="card-title">{{ msg }}</h2>
